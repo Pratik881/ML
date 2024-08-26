@@ -1,0 +1,5 @@
+plt.scatter(X[:, 0], X[:, 1], c=y, s=50, cmap='viridis')
+plt.xlabel('Feature 1')
+plt.ylabel('Feature 2')
+plt.title('Generated Blobs')
+plt.show()
